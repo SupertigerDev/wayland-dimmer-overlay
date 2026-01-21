@@ -8,6 +8,7 @@ Software/virtual screen dimmer below 0% using rust.
 Please test on more environments and report issues!
 
 # Usage
+Install `sudo apt install libxkbcommon-dev`
 Run the compiled binary with an optional brightness argument (0.0 to 1.0). Default is 0.3.
 
 ```bash
@@ -20,4 +21,5 @@ Run the compiled binary with an optional brightness argument (0.0 to 1.0). Defau
 3. Navigate to the project directory: `cd wayland-dimmer-overlay`
 4. Build the project using Cargo: `cargo build --release`
 5. The compiled binary will be located in the `target/release` directory.
+
 
